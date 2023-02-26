@@ -1,28 +1,20 @@
-// const express = require('express');
-// const path = require('path');
-// const api = require('./routes/index.js');
+//-------------Imports Files and Modules for Application to run:
+const express = require('express');
+const api = require('./routes');
 
-// const PORT = 3001;
+//-------------Telling application to run the relevant port "or" if can't find, then, to run on port "3001":
+const PORT = process.env.PORT || 3001;
+const app = express();
 
-// const app = express();
+//-------------Middleware for Parsing JSON and URLEncoded Form Data:
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(api);
 
-// // Middleware for parsing JSON and urlencoded form data
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
-// app.use('/api', api);
+//-------------Middleware for serving Static Files:
+app.use(express.static('public'));
 
-// app.use(express.static('public'));
-
-// // GET Route for homepage
-// app.get('/', (req, res) =>
-//   res.sendFile(path.join(__dirname, '/public/index.html'))
-// );
-
-// // GET Route for feedback page
-// app.get('/feedback', (req, res) =>
-//   res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
-// );
-
-// app.listen(PORT, () =>
-//   console.log(`App listening at http://localhost:${PORT} 🚀`)
-// );
+//-------------Listening for Requests that End User Will Enter:
+app.listen(PORT, () =>
+  console.log(`App listening at http://localhost:${PORT} 🚀`)
+);
