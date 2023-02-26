@@ -76,3 +76,19 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.navbar {
+  background: rgb(47,85,120);
+  background: linear-gradient(180deg, rgba(47,85,120,1) 0%, rgba(47,85,120,1) 35%, rgba(130,129,127,1) 100%);
+  color: white;
+}
+
+footer {
+  background: rgb(47,85,120);
+  background: linear-gradient(180deg, rgba(47,85,120,1) 0%, rgba(47,85,120,1) 35%, rgba(130,129,127,1) 100%);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  height: 50px;
+  margin-bottom: 0;
+}

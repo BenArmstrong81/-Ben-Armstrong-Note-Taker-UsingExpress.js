@@ -74,10 +74,9 @@ N/A - Depolyed onto live Website using Heroku.
 # Usage
 To use and view this challenge you can view the deployed application via the following ***link*** BEN TO AMEND ONCE LIVE
 
-The following image's shows the web application's A) Working Console which includes User Input and all Tests passing, B) Deployed HTML file within the Browser:
+The following image's shows the deployede application:
 
-![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./images/Ben_Armstrong_OOP_TeamProfileGenerator_ScreenShot_WorkingConsole.PNG)
-![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./images/Ben_Armstrong_OOP_TeamProfileGenerator_ScreenShot_DeployedHTML.PNG)
+![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./Assets/BenArmstrong-WorkingNoteTaker.png)
 
 # Credits
 With special thanks to the UniSA Full Stack Web Development Class.
