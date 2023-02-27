@@ -72,9 +72,10 @@ We started with a front end file and needed to build out the back end. This I fo
 N/A - Depolyed onto live Website using Heroku.
 
 # Usage
-To use and view this challenge you can view the deployed application via the following ***link*** BEN TO AMEND ONCE LIVE
+To use and view this challenge you can view the **deployed** application via the following: https://intense-hollows-44171.herokuapp.com/
+<br/>Or check out my repository here: https://github.com/BenArmstrong81/-Ben-Armstrong-Note-Taker-UsingExpress.js
 
-The following image's shows the deployede application:
+The following image's shows the deployed application:
 
 ![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./Assets/BenArmstrong-WorkingNoteTaker.png)
 
